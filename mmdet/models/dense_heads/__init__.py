@@ -28,6 +28,15 @@ from .vfnet_head import VFNetHead
 from .yolact_head import YOLACTHead, YOLACTProtonet, YOLACTSegmHead
 from .yolo_head import YOLOV3Head
 
+from .aggregation_base_head import AggregationBaseHead
+from .aggregation_head import AggregationHead
+from .side2_base_head import Side2BaseHead
+from .side2_head import Side2Head
+from .skip_base_head import SkipBaseHead
+from .skip_head import SkipHead
+from .wan_base_head import WanBaseHead
+from .wan_head import WanHead
+
 __all__ = [
     'AnchorFreeHead', 'AnchorHead', 'GuidedAnchorHead', 'FeatureAdaption',
     'RPNHead', 'GARPNHead', 'RetinaHead', 'RetinaSepBNHead', 'GARetinaHead',
@@ -36,5 +45,7 @@ __all__ = [
     'PISARetinaHead', 'PISASSDHead', 'GFLHead', 'CornerHead', 'YOLACTHead',
     'YOLACTSegmHead', 'YOLACTProtonet', 'YOLOV3Head', 'PAAHead',
     'SABLRetinaHead', 'CentripetalHead', 'VFNetHead', 'TransformerHead',
-    'StageCascadeRPNHead', 'CascadeRPNHead', 'EmbeddingRPNHead'
+    'StageCascadeRPNHead', 'CascadeRPNHead', 'EmbeddingRPNHead',
+    'AggregationBaseHead', 'AggregationHead', 'Side2BaseHead', 'Side2Head',
+    'SkipBaseHead', 'SkipHead', 'WanHead', 'WanBaseHead',
 ]
